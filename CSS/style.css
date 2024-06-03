@@ -6,7 +6,7 @@ body {
         }
 
         h1 {
-            background-color: rgba(0, 128, 0, 0.8);
+            background-color: rgba(62 131 17 / 59%);
             padding: 15px;
             display: inline-block;
             border-radius: 50px;
@@ -50,7 +50,7 @@ body {
         }
 
         header {
-            background-image: url('');
+            background-image: url('https://cdn3.vectorstock.com/i/1000x1000/99/22/seamless-textured-grass-background-on-lawn-vector-30229922.jpg');
             color: #fff;
             border-radius: 60px;
             padding: 10px 0;
@@ -64,7 +64,7 @@ body {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
-            background-color: rgba(0, 128, 0, 0.8);
+            background-color: rgba(18 49 15 / 78%);
             padding: 15px;
             display: inline-block;
             border-radius: 50px;
