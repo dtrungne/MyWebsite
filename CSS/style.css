@@ -83,3 +83,36 @@ body {
             background-color: #e6ffee;
             border-color: #00cc66;
         }
+        .community {
+            max-width: 1500px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px auto;
+            border-radius: 20px;
+            background-color: #e0ffe0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #f1f1f1;
+            background-color: rgba(0, 128, 0, 0.8);
+            text-align: center;
+        }
+
+        /* Xanh lá cho phần được chọn */
+        .plant:target {
+            background-color: #e6ffee;
+            border-color: #00cc66;
+        }
+
+        .community {
+            max-width: 1700px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px auto;
+            border-radius: 20px;
+            background-color: #e0ffe0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
