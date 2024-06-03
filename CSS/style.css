@@ -1,5 +1,4 @@
-      
-        body {
+body {
             font-family: Arial, sans-serif;
             background-color: #f1f1f1;
             margin: 0;
@@ -7,14 +6,11 @@
         }
 
         h1 {
-             background-color: rgba(0, 128, 0, 0.8); /* Màu nền xanh nhạt với độ trong suốt 70% */
-             padding: 15px; /* Khoảng cách giữa nền và chữ */
-             display: inline-block; /* Phần tử trở thành một khối nội dung và chỉ chiếm không gian cần thiết */
-             border-radius: 50px;
-      }
-
-
-
+            background-color: rgba(0, 128, 0, 0.8);
+            padding: 15px;
+            display: inline-block;
+            border-radius: 50px;
+        }
 
         .container {
             max-width: 1500px;
@@ -26,30 +22,37 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .container .plant {
+        .plant {
             margin-top: 50px;
             padding: 20px;
             border-radius: 50px;
             background-color: #f1f1f1;
-            flex: 1; /* Phần tử sẽ mở rộng theo chiều ngang */
-            margin: 0 5px; /* Tạo khoảng trống 5px giữa hai phần tử */
-        }
-       .wrapper {
-            display: flex; /* Phần tử cha sẽ sử dụng flexbox */
-            justify-content: space-between; /* Các phần tử con sẽ được phân bố một cách đều giữa theo chiều ngang */
+            flex: 1;
+            margin: 0 5px;
+            border: 1px solid transparent;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
         }
 
         .plant img {
             max-width: 100%;
             border-radius: 15px;
         }
+
         img {
-            max-width: 330px; /* Thiết lập chiều rộng tối đa là 340px */
-            max-height: 230px; /* Thiết lập chiều cao tối đa là 220px */
-          }
+            max-width: 330px;
+            max-height: 230px;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
         header {
-            background-image: url('../RES/anhnentrangchu.ipg');
+            background-image: url('');
             color: #fff;
+            border-radius: 60px;
             padding: 10px 0;
             text-align: center;
             width: 100%;
@@ -57,20 +60,26 @@
             z-index: 1000;
         }
 
-
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 0px;
-            background-color: rgba(0, 128, 0, 0.8); /* Màu nền xanh nhạt với độ trong suốt 70% */
-            padding: 15px; /* Khoảng cách giữa nền và chữ */
-            display: inline-block; /* Phần tử trở thành một khối nội dung và chỉ chiếm không gian cần thiết */
+            margin: 0 10px;
+            background-color: rgba(0, 128, 0, 0.8);
+            padding: 15px;
+            display: inline-block;
             border-radius: 50px;
         }
-        footer{
-           padding:20px;
-           margin-top:20px;
-           color: #f1f1f1;
-           background-color: rgba(0, 128, 0, 0.8);
-           text-align: center;
+
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #f1f1f1;
+            background-color: rgba(0, 128, 0, 0.8);
+            text-align: center;
+        }
+
+        /* Xanh lá cho phần được chọn */
+        .plant:target {
+            background-color: #e6ffee;
+            border-color: #00cc66;
         }
