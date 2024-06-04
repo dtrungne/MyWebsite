@@ -77,7 +77,7 @@ body {
             text-align: center;
         }
 
-        /* Xanh lá cho phần được chọn */
+
         .plant:target {
             background-color: #e6ffee;
             border-color: #00cc66;
@@ -100,7 +100,6 @@ body {
             text-align: center;
         }
 
-        /* Xanh lá cho phần được chọn */
         .plant:target {
             background-color: #e6ffee;
             border-color: #00cc66;
