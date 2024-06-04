@@ -70,13 +70,12 @@ body {
         }
 
         footer {
-            padding: 20px;
-            margin-top: 20px;
-            color: #f1f1f1;
-            background-color: rgba(0, 128, 0, 0.8);
+            padding: 5px;
+            margin-top: 5px;
+            color: #000000;
+            background-color: rgb(125 56 18);
             text-align: center;
         }
-
 
         .plant:target {
             background-color: #e6ffee;
@@ -93,12 +92,13 @@ body {
         }
 
         footer {
-            padding: 20px;
-            margin-top: 20px;
+            padding: 5px;
+            margin-top: 5px;
             color: #f1f1f1;
-            background-color: rgba(0, 128, 0, 0.8);
+            background-color: rgb(125 56 18);
             text-align: center;
         }
+
 
         .plant:target {
             background-color: #e6ffee;
