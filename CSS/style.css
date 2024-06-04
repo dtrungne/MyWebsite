@@ -69,17 +69,11 @@ body {
             border-radius: 50px;
         }
 
-        footer {
-            padding: 5px;
-            margin-top: 5px;
-            background-color: rgb(125 56 18);
-            text-align: center;
-        }
-
         .plant:target {
             background-color: #e6ffee;
             border-color: #00cc66;
         }
+
         .community {
             max-width: 1500px;
             padding: 20px;
