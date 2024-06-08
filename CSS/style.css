@@ -1,108 +1,133 @@
-body {
-            font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
-            margin: 0;
-            padding: 0;
-        }
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
 
-        h1 {
-            background-color: rgba(62 131 17 / 59%);
-            padding: 15px;
-            display: inline-block;
-            border-radius: 50px;
-        }
+h1 {
+    background-color: rgba(62 131 17 / 59%);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 50px;
+}
 
-        .container {
-            max-width: 1500px;
-            padding: 20px;
-            text-align: center;
-            margin: 50px auto;
-            border-radius: 50px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+.container {
+    max-width: 1500px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-        .plant {
-            margin-top: 50px;
-            padding: 20px;
-            border-radius: 50px;
-            background-color: #f1f1f1;
-            flex: 1;
-            margin: 0 5px;
-            border: 1px solid transparent;
-            transition: background-color 0.3s ease, border-color 0.3s ease;
-        }
+.plant {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+    flex: 1;
+    margin: 0 5px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
 
-        .plant img {
-            max-width: 100%;
-            border-radius: 15px;
-        }
+.plant img {
+    max-width: 100%;
+    border-radius: 15px;
+}
 
-        img {
-            max-width: 330px;
-            max-height: 230px;
-        }
+img {
+    max-width: 330px;
+    max-height: 230px;
+}
 
-        .wrapper {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-        header {
-            background-image: url('https://cdn3.vectorstock.com/i/1000x1000/99/22/seamless-textured-grass-background-on-lawn-vector-30229922.jpg');
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
+header {
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/99/22/seamless-textured-grass-background-on-lawn-vector-30229922.jpg');
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-            background-color: rgba(18 49 15 / 78%);
-            padding: 15px;
-            display: inline-block;
-            border-radius: 50px;
-        }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: rgba(18 49 15 / 78%);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 50px;
+}
 
-        .plant:target {
-            background-color: #e6ffee;
-            border-color: #00cc66;
-        }
+footer {
+    padding: 5px;
+    margin-top: 5px;
+    color: #f1f1f1;
+    background-color: rgb(125 56 18);
+    text-align: center;
+}
 
-        .community {
-            max-width: 1500px;
-            padding: 20px;
-            text-align: center;
-            margin: 20px auto;
-            border-radius: 20px;
-            background-color: #e0ffe0;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+.plant:target {
+    background-color: #e6ffee;
+    border-color: #00cc66;
+}
 
-        footer {
-            padding: 5px;
-            margin-top: 5px;
-            background-color: rgb(125 56 18);
-            text-align: center;
-        }
+.community {
+    max-width: 1500px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #e0ffe0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-
-        .plant:target {
-            background-color: #e6ffee;
-            border-color: #00cc66;
-        }
-
-        .community {
-            max-width: 1700px;
-            padding: 20px;
-            text-align: center;
-            margin: 20px auto;
-            border-radius: 20px;
-            background-color: #e0ffe0;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+@media(max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .wrapper {
+        flex-direction: column; # Hiển thị các phân tích cây theo chiều dọc
+    }
+    .plant {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    img {
+        max-width: 100%;
+        max-height: auto;
+    }
+    header {
+        padding: 10px;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    nav a {
+        padding: 10px;
+        margin: 5px;
+    }
+    footer {
+        padding: 5px;
+    }
+    .community {
+        padding: 10px;
+        margin: 20px auto;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
