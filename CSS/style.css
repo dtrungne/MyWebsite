@@ -74,6 +74,7 @@ footer {
     margin-top: 5px;
     background-color: rgb(125 56 18);
     text-align: center;
+    color: black;
 }
 
 .plant:target {
